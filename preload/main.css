@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  /* font-display: swap; */
+  src: url(/roboto_slab_400.woff2) format('woff2');
+}
+
+body {
+  font-family: 'Roboto Slab';
+}
+h1 {
+  color: red;
+}

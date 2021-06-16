@@ -1,0 +1,53 @@
+---
+layout: 'layout/base.njk'
+sale: true
+---
+
+{% set watch = watches[watches.length - 1] %}
+{# {% include 'layout/colour.njk' %} #}
+<section class="w-full bg-blue-900 text-white flex flex-col min-h-screen mb-8">
+  <div class="mx-auto m-8">
+    <h1
+      class="
+        flex-1 flex-grow
+        w-full
+        p-8
+        text-5xl
+        font-bold
+        leading-tight
+        text-center
+        uppercase
+      "
+    >
+      {{ watch.name }}
+    </h1>
+    <div class="flex-1 flex-grow mx-auto">
+      <img class="h-auto mx-auto" src="/{{ watch.img }}"/>
+
+      {#
+      <img
+        id="productImg"
+        class="h-auto mx-auto"
+        src="https://res.cloudinary.com/tamas-demo/image/upload/f_auto,q_auto,w_600/{{
+          watch.cldImg
+        }}"
+      />
+      #}
+    </div>
+    <div class="bg-blue-900">
+      <h2
+        class="
+          w-full
+          flex-1 flex-grow
+          text-3xl text-white
+          font-bold
+          mx-auto
+          text-center
+          p-8
+        "
+      >
+        The best watch ever
+      </h2>
+    </div>
+  </div>
+</section>

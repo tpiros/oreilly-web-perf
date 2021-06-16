@@ -1,0 +1,30 @@
+<script>
+  const fibonacci = (num) => {
+    if (num <= 1) 
+      return 1;
+    return fibonacci(num - 1) + fibonacci(num - 2);
+  };
+  console.log(`Just for fun: ${fibonacci(41)}`);
+
+  setTimeout(() => {
+    document
+      .getElementById('promotion')
+      .classList
+      .remove('hidden');
+  }, 5000);
+
+  // const colourChange = document.querySelectorAll('[id=colourChange]');
+  // const imgNode = document.getElementById('productImg');
+  // const colourChangeFn = (e) => {
+  //   const changeTo = e.srcElement.attributes['name'].value.split('#').pop();
+
+  //   if (changeTo === 'CF946E') {
+  //     imgNode.src = `https://res.cloudinary.com/tamas-demo/image/upload/w_600,f_auto,q_auto/cwv/iztc4rygfkp3fcintbqe.jpg`;
+  //   } else {
+  //     imgNode.src = `https://res.cloudinary.com/tamas-demo/image/upload/e_replace_color:${changeTo}:30:783A27,f_auto,q_auto,w_600/cwv/iztc4rygfkp3fcintbqe.jpg`;
+  //   }
+  // };
+  // colourChange.forEach((cc) => {
+  //   cc.addEventListener('click', colourChangeFn);
+  // });
+</script>

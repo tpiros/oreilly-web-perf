@@ -1,0 +1,25 @@
+{% set colours = [
+  {
+    "name": "black",
+    "hex": "#000000"
+  }, {
+    "name": "green",
+    "hex": "#00ff00"
+  }, {
+    "name": "original",
+    "hex": "#CF946E"
+  }
+] %}
+<div>
+  <p>Select a colour</p>
+  <ul>
+    {% for colour in colours %}
+      <span
+        class="cursor-pointer inline-block p-8 rounded-full m-2 text-black-800"
+        style="background-color: {{ colour.hex }}" id="colourChange" name="{{ colour.hex }}"
+        >&nbsp;</span
+      >
+      {{ colour.name }}
+    {% endfor %}
+  </ul>
+</div>

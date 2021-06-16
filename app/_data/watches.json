@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Fossil",
+    "price": 19.99,
+    "img": "assets/watch-1.jpg",
+    "cldImg": "/cwv/watch-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Braun",
+    "price": 29.49,
+    "img": "assets/watch-2.jpg",
+    "cldImg": "/cwv/watch-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "MVMT",
+    "price": 19.99,
+    "img": "assets/watch-3.jpg",
+    "cldImg": "/cwv/watch-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Rolex",
+    "price": 300,
+    "img": "assets/watch-4.jpg",
+    "cldImg": "/cwv/watch-4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Old Watch",
+    "price": 79.99,
+    "img": "assets/watch-5.jpg",
+    "cldImg": "/cwv/watch-5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Breitling",
+    "price": 29.99,
+    "img": "assets/watch-6.jpg",
+    "cldImg": "/cwv/watch-6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Hunters Race",
+    "price": 199.99,
+    "img": "assets/watch-7.jpg",
+    "cldImg": "/cwv/watch-7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Skagen",
+    "price": 49.99,
+    "img": "assets/iztc4rygfkp3fcintbqe.jpg",
+    "cldImg": "/cwv/iztc4rygfkp3fcintbqe.jpg"
+  }
+]

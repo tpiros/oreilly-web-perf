@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <meta name="description" content=""/>
+    <meta name="author" content="Tamas Piros"/>
+    <link rel="stylesheet" href="/style.css"/>
+  </head>
+
+  <body class="bg-white flex flex-col h-screen">
+    {# {% if sale %} #}
+    <div id="promotion" class="hidden">
+      <div
+    class="flex flex-col bg-yellow-400 text-red-600 text-2xl font-bold text-center mx-auto h-60 justify-center"
+  >
+    % SALE %
+    <p>Purchase our watches today with an inredible discount! Only today!</p>
+      </div>
+    </div>
+    {# {% endif %} #}
+    {% include 'layout/nav.njk' %}
+    {{ content | safe }}
+    {% include 'layout/scripts.njk' %}
+  </body>
+</html>
