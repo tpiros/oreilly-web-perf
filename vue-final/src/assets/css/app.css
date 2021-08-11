@@ -1,0 +1,41 @@
+@font-face{font-family:Ubuntu;font-style:normal;font-display:swap;font-weight:400;src:local('Ubuntu Regular'),local('Ubuntu-Regular'),url(/fonts/ubuntu.woff2) format('woff2')}@font-face{font-family:Anton;font-style:normal;font-display:swap;font-weight:400;src:local('Anton Regular'),local('Anton-Regular'),url(/fonts/anton.woff2) format('woff2')}:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}article,aside,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}
+h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem}
+address,dl,ol,ul{margin-bottom:1rem}dl,ol,ul{margin-top:0}
+b,strong{font-weight:bolder}small{font-size:80%}
+img{border-style:none}img,svg{vertical-align:middle}
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit}
+.h4,h4{font-size:1.5rem}
+.small,small{font-size:80%;font-weight:400}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+.container{max-width:540px}
+.container{max-width:720px}
+.row{display:-ms-flexbox;display:-webkit-box;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}
+.nav-link{display:block;padding:.5rem 1rem}
+.navbar{position:relative;padding:.5rem 1rem}.navbar,.navbar>.container,.navbar>.container-fluid{display:-ms-flexbox;display:-webkit-box;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-align:center;-webkit-box-align:center;align-items:center;-ms-flex-pack:justify;-webkit-box-pack:justify;justify-content:space-between}
+.navbar-nav{display:-ms-flexbox;display:-webkit-box;display:flex;-ms-flex-direction:column;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;padding-left:0;margin-bottom:0;list-style:none}.navbar-nav .nav-link{padding-right:0;padding-left:0}
+.navbar-collapse{-ms-flex-preferred-size:100%;flex-basis:100%;-ms-flex-positive:1;-webkit-box-flex:1;flex-grow:1;-ms-flex-align:center;-webkit-box-align:center;align-items:center}
+.navbar-expand{-ms-flex-flow:row nowrap;-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-flow:row nowrap;-ms-flex-pack:start;-webkit-box-pack:start;justify-content:flex-start}
+.navbar-expand .navbar-nav{-ms-flex-direction:row;-webkit-box-orient:horizontal;-webkit-box-direction:normal;flex-direction:row}
+.navbar-expand .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem}
+.navbar-expand .navbar-collapse{display:-ms-flexbox!important;display:-webkit-box!important;display:flex!important;-ms-flex-preferred-size:auto;flex-basis:auto}
+.navbar-light .navbar-nav .nav-link{color:rgba(0,0,0,.5)}
+.navbar-light .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .nav-link.active,.navbar-light .navbar-nav .nav-link.show,.navbar-light .navbar-nav .show>.nav-link{color:rgba(0,0,0,.9)}
+.card{position:relative;display:-ms-flexbox;display:-webkit-box;display:flex;-ms-flex-direction:column;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid rgba(0,0,0,.125);border-radius:.25rem}
+.card-body{-ms-flex:1 1 auto;-webkit-box-flex:1;flex:1 1 auto;padding:1.25rem}.card-title{margin-bottom:.75rem}
+.card-subtitle,.card-text:last-child{margin-bottom:0}
+.card-header{padding:.75rem 1.25rem;margin-bottom:0;color:inherit;background-color:rgba(0,0,0,.03);border-bottom:1px solid rgba(0,0,0,.125)}
+.bg-light{background-color:#f8f9fa!important}
+.bg-white{background-color:#fff!important}
+.border-0{border:0!important}
+.border-white{border-color:#fff!important}
+.justify-content-center{-ms-flex-pack:center!important;-webkit-box-pack:center!important;justify-content:center!important}
+.align-items-center{-ms-flex-align:center!important;-webkit-box-align:center!important;align-items:center!important}
+.fixed-top{top:0}.fixed-bottom,.fixed-top{position:fixed;right:0;left:0;z-index:1030}
+.h-100{height:100%!important}
+.mr-auto,.mx-auto{margin-right:auto!important}
+.text-center{text-align:center!important}
+.text-muted{color:#6c757d!important}
+.navbar-nav li.router-link-active,.navbar-nav li.router-link-exact-active,.navbar-nav li:hover{cursor:pointer}[data-v-72b5e26e]{-webkit-box-sizing:border-box;box-sizing:border-box}
+.row[data-v-72b5e26e]{overflow:scroll;width:800px}.row__inner[data-v-72b5e26e]{-webkit-transition:-webkit-transform .45s;transition:-webkit-transform .45s;transition:transform .45s;transition:transform .45s,-webkit-transform .45s;font-size:0;white-space:nowrap;margin:70.3125px 0;padding-bottom:10px}.tile[data-v-72b5e26e]{position:relative;display:inline-block;width:250px;height:140.625px;margin-right:10px;font-size:20px;cursor:pointer;-webkit-transition:all .45s;transition:all .45s;-webkit-transform-origin:center left;transform-origin:center left}.tile__img[data-v-72b5e26e]{width:250px;height:140.625px;-o-object-fit:cover;object-fit:cover}.tile__details[data-v-72b5e26e]{position:absolute;bottom:0;left:0;right:0;top:0;font-size:10px;opacity:0;-webkit-transition:opacity .45s;transition:opacity .45s}.tile__details[data-v-72b5e26e]:before{content:"";position:absolute;top:50%;left:50%;display:#000}
+.tile__title[data-v-72b5e26e]{position:static;bottom:0;padding:5px;text-align:center;background-color:#eee}
+.card-title[data-v-7de0cb26]{font-family:Anton,sans-serif}.card-custom[data-v-7de0cb26]{overflow:hidden;min-height:450px;width:800px;-webkit-box-shadow:0 0 15px rgba(10,10,10,.3);box-shadow:0 0 15px rgba(10,10,10,.3)}.card-custom-img[data-v-7de0cb26]{background-image:url(https://res.cloudinary.com/tamas-demo/image/upload/q_auto,f_auto,ar_4.0,c_crop/web-perf/water-polo-card-title.jpg);height:200px;min-height:200px;background-repeat:no-repeat;background-size:cover;background-position:50%;border-color:inherit}.card-custom-img[data-v-7de0cb26]:after{position:absolute;content:"";top:161px;left:0;width:0;height:0;border-style:solid;border-top-width:40px;border-right-width:0;border-bottom-width:0;border-left-width:545px;border-left-width:calc(575px - 5vw);border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:inherit}.card-custom-avatar img[data-v-7de0cb26]{border-radius:50%;-webkit-box-shadow:0 0 15px rgba(0,0,0,.9);box-shadow:0 0 15px rgba(0,0,0,.9);position:absolute;top:100px;left:1.25rem}html{background:url(https://res.cloudinary.com/tamas-demo/image/upload/q_auto:low,f_auto,w_1920/web-perf/water-bg.jpg) no-repeat 50% fixed;background-size:cover}body{font-family:Ubuntu,sans-serif;padding-top:5rem;background-color:hsla(0,0%,100%,0)}

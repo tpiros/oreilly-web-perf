@@ -1,0 +1,39 @@
+{
+  "name": "final-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:report": "vue-cli-service build --report",
+    "build:modern": "vue-cli-service build --modern",
+    "lint": "vue-cli-service lint",
+    "start": "node server.js",
+    "start:dev": "./node_modules/.bin/nodemon server.js",
+    "deploy": "npm run build && now --public"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "compression": "^1.7.4",
+    "core-js": "^3.6.4",
+    "express": "^4.16.4",
+    "lazysizes": "^4.1.5",
+    "nodemon": "^1.18.9",
+    "puppeteer": "^1.11.0",
+    "register-service-worker": "^1.5.2",
+    "spdy": "^4.0.0",
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-plugin-pwa": "^3.3.0",
+    "@vue/cli-service": "^4.2.2",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21",
+    "webpack-cli": "^3.2.1"
+  }
+}
