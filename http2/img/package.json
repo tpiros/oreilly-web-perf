@@ -1,0 +1,17 @@
+{
+  "name": "img-cut",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.8.0"
+  },
+  "dependencies": {
+    "express": "^5.0.0-beta.1",
+    "http2-express-bridge": "^1.0.7"
+  }
+}

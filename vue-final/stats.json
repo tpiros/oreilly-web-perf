@@ -1,0 +1,23 @@
+{
+  "errors": [
+    "Entry module not found: Error: Can't resolve './src' in '/Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app'\nresolve './src' in '/Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app'\n  using description file: /Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app/package.json (relative path: .)\n    Field 'browser' doesn't contain a valid alias configuration\n    using description file: /Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app/package.json (relative path: ./src)\n      no extension\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app/src is not a file\n      .wasm\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app/src.wasm doesn't exist\n      .mjs\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app/src.mjs doesn't exist\n      .js\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app/src.js doesn't exist\n      .json\n        Field 'browser' doesn't contain a valid alias configuration\n        /Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app/src.json doesn't exist\n      as directory\n        existing directory\n          using path: /Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app/src/index\n            using description file: /Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app/package.json (relative path: ./src/index)\n              no extension\n                Field 'browser' doesn't contain a valid alias configuration\n                /Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app/src/index doesn't exist\n              .wasm\n                Field 'browser' doesn't contain a valid alias configuration\n                /Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app/src/index.wasm doesn't exist\n              .mjs\n                Field 'browser' doesn't contain a valid alias configuration\n                /Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app/src/index.mjs doesn't exist\n              .js\n                Field 'browser' doesn't contain a valid alias configuration\n                /Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app/src/index.js doesn't exist\n              .json\n                Field 'browser' doesn't contain a valid alias configuration\n                /Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app/src/index.json doesn't exist"
+  ],
+  "warnings": [
+    "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/concepts/mode/"
+  ],
+  "version": "4.28.4",
+  "hash": "d0b4236063a78eecc170",
+  "time": 51,
+  "builtAt": 1547481455229,
+  "publicPath": "",
+  "outputPath": "/Users/tpiros/Documents/development/courses/web-perf/work-folder/final-app/dist",
+  "assetsByChunkName": {},
+  "assets": [],
+  "filteredAssets": 0,
+  "entrypoints": {},
+  "namedChunkGroups": {},
+  "chunks": [],
+  "modules": [],
+  "filteredModules": 0,
+  "children": []
+}

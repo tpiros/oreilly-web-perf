@@ -1,3 +1,5 @@
 node_modules/
+dist/
+now.json
 .DS_Store
 web-perf-fundamentals-oreilly.pdf

@@ -1,0 +1,3 @@
+../node_modules/.bin/uglifyjs index.js --mangle --source-map url=min.js.map -o min.js
+
+../node_modules/.bin/uglifyjs index.js --mangle -o min.js
